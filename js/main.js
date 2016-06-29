@@ -65,7 +65,7 @@ function sortMovies(){
 
   if (movies.length >= 5) {
     console.log(movies)
-    movies = JSON.stringify(movies)
+    var sortedMovies = JSON.stringify(movies)
     console.log(sortedMovies)
   }
 }
